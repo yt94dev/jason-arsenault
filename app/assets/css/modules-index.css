@@ -1,1 +1,245 @@
+@charset "UTF-8";
 /* Modules Index */
+.we-do .we-do-title {
+  text-transform: capitalize;
+  font-size: 58.98px;
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  color: #393939;
+  text-align: center;
+  margin: 20px 0 20px 0px; }
+  .we-do .we-do-title span {
+    color: #26538a; }
+
+.we-do .we-do-left-col-title {
+  font-size: 17pt;
+  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  color: #393939;
+  padding: 36px 0 0 0px;
+  margin: 0px 0 0 -2px;
+  letter-spacing: 0.1px; }
+  .we-do .we-do-left-col-title span {
+    color: #26538a; }
+
+.we-do .we-do-left-col-article {
+  padding: 12px 7px 0 0;
+  letter-spacing: 0.29px;
+  line-height: 21px; }
+
+.we-do .bookkeeping:before {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url(../img/index-icons/bookkeeping_icon.png) no-repeat;
+  float: left;
+  position: relative;
+  top: 2px; }
+
+.we-do .pricing:before {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url(../img/index-icons/pricing_icon.png) no-repeat;
+  float: left;
+  position: relative;
+  top: 2px; }
+
+.we-do .tax:before {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url(../img/index-icons/tax_icon.png) no-repeat;
+  float: left;
+  position: relative;
+  top: 2px; }
+
+.we-do .financial:before {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url(../img/index-icons/finance_icon.png) no-repeat;
+  float: left;
+  position: relative;
+  top: 2px; }
+
+.we-do .services {
+  padding: 27px 0 0 20px; }
+  .we-do .services .we-do-right-col-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18.89pt;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 14px;
+    letter-spacing: -1.1px;
+    line-height: 22px; }
+  .we-do .services .we-do-right-col-descr {
+    display: inline-block;
+    width: 86.2%;
+    margin-left: 17px;
+    letter-spacing: 0.2px;
+    line-height: 24px; }
+
+.why-pick-us {
+  position: relative; }
+  .why-pick-us:before {
+    content: '';
+    width: 470px;
+    height: 424px;
+    background: url(../img/why-pick-left-logo-01.svg) no-repeat;
+    display: block;
+    position: absolute;
+    top: -85px;
+    left: 322px; }
+  .why-pick-us:after {
+    content: '';
+    width: 540px;
+    height: 300px;
+    background: url(../img/why-pick-right-logo-01.svg) no-repeat;
+    display: block;
+    position: absolute;
+    right: 295px;
+    transform: rotate(7.2deg);
+    bottom: -78px; }
+  .why-pick-us .why-pick-us-title {
+    font-size: 44pt;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    display: inherit;
+    padding: 90px 0 0px 0px; }
+    .why-pick-us .why-pick-us-title span {
+      color: #26538a; }
+  .why-pick-us .title1:before {
+    content: '';
+    width: 84px;
+    height: 84px;
+    display: block;
+    margin: 0 auto;
+    background: url(../img/why-pick-us-xero.png) no-repeat;
+    position: relative;
+    left: -1px;
+    top: -22px; }
+  .why-pick-us .title2:before {
+    content: '';
+    width: 84px;
+    height: 84px;
+    background: url(../img/why-pick-us-tech.png) no-repeat;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -1px;
+    top: -22px; }
+  .why-pick-us .title3:before {
+    content: '';
+    width: 84px;
+    height: 84px;
+    background: url(../img/why-pick-us-implement.png) no-repeat;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -1px;
+    top: -22px; }
+  .why-pick-us .why-pick-us-col-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19pt;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #26538a;
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    padding: 62px 0 5px 0; }
+  .why-pick-us .why-pick-us-col-descr {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px; }
+
+.customer-review .customer-review-title {
+  font-size: 44pt;
+  letter-spacing: 0.2px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  color: #393939;
+  text-transform: capitalize; }
+  .customer-review .customer-review-title span {
+    color: #26538a; }
+
+.customer-review .singleslider {
+  padding: 36px 0 0 0;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 40px !important; }
+  .customer-review .singleslider .slick-slide {
+    padding: 0 5px 0 5px; }
+    .customer-review .singleslider .slick-slide span {
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-style: italic;
+      color: #3b3b3b;
+      line-height: 30px; }
+    .customer-review .singleslider .slick-slide figure {
+      display: inline-block;
+      margin: 21px 0 0 0; }
+  .customer-review .singleslider .slick-dots {
+    bottom: -39px; }
+    .customer-review .singleslider .slick-dots li {
+      margin: 0 3px; }
+      .customer-review .singleslider .slick-dots li button:before {
+        font-size: 16px; }
+  .customer-review .singleslider .slick-prev:before {
+    content: '“';
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: #5c9ded;
+    text-shadow: 0 6px 18px rgba(0, 0, 0, 0.19);
+    font-size: 82pt;
+    position: relative;
+    left: -39px;
+    top: -126px; }
+  .customer-review .singleslider .slick-next:before {
+    content: '”';
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: #5c9ded;
+    text-shadow: 0 6px 18px rgba(0, 0, 0, 0.19);
+    font-size: 82pt;
+    position: relative;
+    left: 11px;
+    top: -126px; }
+
+.get-started .get-started-overlay {
+  background-color: rgba(92, 157, 237, 0.9);
+  padding: 0 0 204px 0; }
+  .get-started .get-started-overlay .get-started-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 71pt;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 177px 0 5px 0; }
+  .get-started .get-started-overlay .get-started-descr {
+    font-family: "Open Sans";
+    font-size: 10.5pt;
+    color: #fff;
+    text-align: center; }
+  .get-started .get-started-overlay a {
+    display: block;
+    width: 212px;
+    height: 43px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 25px auto;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 11px;
+    text-decoration: none; }

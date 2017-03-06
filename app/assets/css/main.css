@@ -9,6 +9,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900");
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -5455,14 +5456,148 @@ button.close {
 /* Base */
 * {
   margin: 0;
-  padding: 3px;
+  padding: 0;
   box-sizing: border-box; }
 
+div {
+  outline: 1px solid black; }
+
 /* Fonts */
-h1 {
-  font-size: 40px; }
+@font-face {
+  font-family: MinionPRO-Regular;
+  src: url(../fonts/minionpro/minionpro-regular.otf); }
 
 /* States */
+header .header-nav .navigation .nav-item:hover {
+  background-color: #f2f2f2; }
+
 /* Layout */
+body {
+  padding: 0; }
+
+header {
+  padding: 0; }
+  header .container {
+    padding: 0; }
+  header .header-nav .logo {
+    float: left;
+    margin-left: 15px; }
+    header .header-nav .logo a {
+      display: inline-block;
+      width: 154px;
+      padding-top: 14.3px; }
+  header .header-nav .navigation {
+    float: left;
+    margin-left: 130px; }
+    header .header-nav .navigation .nav-item {
+      text-transform: uppercase;
+      display: inline-block;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 16px;
+      color: #5c9ded;
+      font-weight: 100;
+      letter-spacing: -0.4px;
+      padding: 31px 25px 30px 22px; }
+
+.super-accounting {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #d2d2d2;
+  background: url(../img/backgroung-super-account.png) repeat;
+  position: relative;
+  padding: 0 0 165px 0; }
+  .super-accounting .super-account-heading-1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 95px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #26538a;
+    display: inline-block;
+    margin: 116px 0px 0 -4px;
+    line-height: 80px; }
+  .super-accounting .super-account-heading-2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    font-size: 60.1px;
+    margin: 2.4px 0px 11px -1px;
+    font-weight: 300; }
+  .super-accounting .super-account-description {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #585858;
+    line-height: 21px;
+    padding-bottom: 11px; }
+  .super-accounting .super-account-contact-us {
+    width: 212px;
+    height: 43px;
+    border-radius: 4px;
+    background-color: #5c9ded;
+    display: inline-block;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 11px; }
+  .super-accounting figure {
+    display: inline-block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 15px;
+    right: 0;
+    width: 70%;
+    top: 40px; }
+
+.we-do {
+  padding: 61px 0 91px 0; }
+
+.why-pick-us {
+  background: url(../img/why-pick-us-logo.jpg) repeat-x;
+  padding: 0 0 92px 0; }
+
+.customer-review {
+  margin: 90px 0px 103px 0;
+  text-align: center; }
+
+.get-started {
+  background: url(../img/get-started-bg.jpg) no-repeat;
+  background-position: 50% -20%; }
+
+footer {
+  background-color: #393939; }
+  footer .container {
+    padding: 0; }
+  footer .header-nav .logo {
+    float: left;
+    margin-left: 9px; }
+    footer .header-nav .logo a {
+      display: inline-block;
+      width: 161px;
+      padding-top: 2.3px; }
+      footer .header-nav .logo a img {
+        width: 175px; }
+  footer .header-nav .navigation {
+    float: left;
+    margin-left: 130px; }
+    footer .header-nav .navigation .nav-item {
+      text-transform: uppercase;
+      display: inline-block;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 100;
+      letter-spacing: -0.4px;
+      padding: 31px 25px 30px 22px; }
+  footer .footer-copyright {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: white;
+    margin: 11px 0 0 14px;
+    display: inline-block; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px; } }
 
 /*# sourceMappingURL=main.css.map */
