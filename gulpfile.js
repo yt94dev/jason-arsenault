@@ -40,6 +40,13 @@ var gulp = require('gulp'),
         .pipe(gulp.dest('app/assets/css'));
       console.log("sass compilation complete");
     }),
+    "sass-compile-modules-about" : (function () {
+      return gulp.src('src/sass/modules-about.sass')
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('app/assets/css'));
+      console.log("sass compilation complete");
+    }),
     "autoprefixize" : (function () {
       gulp.src('app/assets/css/main.css')
         .pipe(autoprefixer({
@@ -60,7 +67,7 @@ var gulp = require('gulp'),
   });
 
   gulp.task('watch', function() {
-    gulp.watch('src/sass/*.sass', ['sass-compile', 'sass-compile-modules-index', 'autoprefixize', 'sass-source-map'])
+    gulp.watch('src/sass/*.sass', ['sass-compile', 'sass-compile-modules-index', 'sass-compile-modules-about', 'autoprefixize', 'sass-source-map'])
   });
 
-  gulps.registerSeries("default", ["js-min", "sass-compile", "sass-compile-modules-index", "autoprefixize", "sass-source-map"]);
+  gulps.registerSeries("default", ["js-min", "sass-compile", "sass-compile-modules-index", "sass-compile-modules-about", "autoprefixize", "sass-source-map"]);

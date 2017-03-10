@@ -5459,8 +5459,8 @@ button.close {
   padding: 0;
   box-sizing: border-box; }
 
-div {
-  outline: 1px solid black; }
+.wrapper {
+  overflow: hidden; }
 
 /* Fonts */
 @font-face {
@@ -5496,8 +5496,12 @@ header {
       font-size: 16px;
       color: #5c9ded;
       font-weight: 100;
-      letter-spacing: -0.4px;
-      padding: 31px 25px 30px 22px; }
+      letter-spacing: -0.4px; }
+      header .header-nav .navigation .nav-item a {
+        text-decoration: none;
+        color: #5c9ded;
+        padding: 31px 25px 30px 23px;
+        display: inline-block; }
 
 .super-accounting {
   border-top-width: 2px;
@@ -5505,7 +5509,10 @@ header {
   border-top-color: #d2d2d2;
   background: url(../img/backgroung-super-account.png) repeat;
   position: relative;
-  padding: 0 0 165px 0; }
+  padding: 0 0 165px 0;
+  overflow: hidden; }
+  .super-accounting .col-lg-12 {
+    z-index: 5; }
   .super-accounting .super-account-heading-1 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 95px;
@@ -5538,7 +5545,9 @@ header {
     font-size: 14px;
     color: #fff;
     text-transform: capitalize;
-    padding: 11px; }
+    padding: 11px;
+    box-shadow: 0px 7px 39px -9px rgba(50, 50, 50, 0.75);
+    text-decoration: none; }
   .super-accounting figure {
     display: inline-block;
     position: absolute;
@@ -5546,8 +5555,9 @@ header {
     margin-right: auto;
     left: 15px;
     right: 0;
-    width: 70%;
-    top: 40px; }
+    width: 1340px;
+    top: 40px;
+    z-index: 2; }
 
 .we-do {
   padding: 61px 0 91px 0; }
@@ -5577,18 +5587,22 @@ footer {
       padding-top: 2.3px; }
       footer .header-nav .logo a img {
         width: 175px; }
-  footer .header-nav .navigation {
+  footer .header-nav .footer-navigation {
     float: left;
     margin-left: 130px; }
-    footer .header-nav .navigation .nav-item {
+    footer .header-nav .footer-navigation .nav-item {
       text-transform: uppercase;
       display: inline-block;
       font-family: 'Titillium Web', sans-serif;
       font-size: 16px;
       color: #fff;
       font-weight: 100;
-      letter-spacing: -0.4px;
-      padding: 31px 25px 30px 22px; }
+      letter-spacing: -0.4px; }
+      footer .header-nav .footer-navigation .nav-item a {
+        text-decoration: none;
+        color: #fff;
+        padding: 31px 25px 30px 22px;
+        display: inline-block; }
   footer .footer-copyright {
     font-family: "Open Sans";
     font-size: 14px;
@@ -5598,6 +5612,673 @@ footer {
 
 @media (min-width: 1200px) {
   .container {
-    width: 970px; } }
+    width: 970px; }
+  header .header-nav .hamburger-menu {
+    display: none; } }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header .header-nav .hamburger-menu {
+    display: none; }
+  header .header-nav .navigation .nav-item {
+    letter-spacing: -0.3px; }
+  header .header-nav .logo a {
+    padding-top: 12.3px; }
+  .super-accounting {
+    overflow: hidden; }
+    .super-accounting .super-account-heading-1 {
+      margin: 10.1% 0 0 8.2%; }
+    .super-accounting .super-account-heading-2 {
+      margin: 0.4% 0 0 8.4%; }
+    .super-accounting .super-account-description {
+      margin: 1% 0 1% 8.5%; }
+    .super-accounting .super-account-contact-us {
+      margin: 0 0 0 8.6%; }
+    .super-accounting figure {
+      width: 131.7%;
+      left: -15%;
+      top: 7.4%; }
+  .we-do {
+    padding: 8% 0 10.4% 0; }
+    .we-do .we-do-left-col-title {
+      padding: 13% 0 0 0; }
+    .we-do .we-do-left-col-article {
+      padding: 3% 2.0% 0 0px; }
+    .we-do .services {
+      padding: 4.4% 1.5% 0 1.5%; }
+  .why-pick-us {
+    padding: 0 0 15.6% 0;
+    background: url(../img/why-pick-us-logo.jpg) repeat; }
+    .why-pick-us:before {
+      width: 403px;
+      height: 399px;
+      top: -8.4%;
+      left: 0.4%;
+      transform: rotate(14deg); }
+    .why-pick-us:after {
+      right: -0.1%;
+      transform: rotate(13.6deg);
+      bottom: -7.9%;
+      z-index: 2; }
+    .why-pick-us .why-pick-us-title {
+      padding: 17.2% 0 0 0; }
+    .why-pick-us .why-pick-us-col-title {
+      padding: 19.6% 0 1.4% 0; }
+  .customer-review {
+    margin: 8.7% 0 10% 0; }
+  .get-started .get-started-overlay {
+    padding: 0 0 17% 0; }
+    .get-started .get-started-overlay .get-started-title {
+      margin: 22% 0 0.6% 0; }
+  .customer-review .singleslider {
+    padding: 3.5% 0 0 0;
+    margin-bottom: 43px !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header .header-nav .logo {
+    margin-left: 17px; }
+    header .header-nav .logo a {
+      padding-top: 13.3px; }
+  header .header-nav .hamburger-menu {
+    display: none; }
+  header .header-nav .navigation {
+    margin-left: 27px; }
+    header .header-nav .navigation .nav-item a {
+      padding: 30px 15.2px 30px 13.5px; }
+  .super-accounting {
+    padding: 0 0 24.5% 0; }
+    .super-accounting .super-account-heading-1 {
+      margin: 7.3% 0 0 8.3%; }
+    .super-accounting .super-account-heading-2 {
+      margin: 1% 0 1% 8.6%; }
+    .super-accounting .super-account-description {
+      margin: 0 0 1.3% 8.6%;
+      display: block;
+      width: 49%; }
+      .super-accounting .super-account-description br {
+        display: none; }
+    .super-accounting .super-account-contact-us {
+      margin: 0 0 0 8.8%;
+      width: 172px; }
+    .super-accounting figure {
+      left: -23%;
+      top: 2.6%;
+      width: 1379px;
+      overflow: hidden; }
+  .we-do {
+    padding: 9.8% 0 18.4% 0; }
+    .we-do .we-do-left-col-title {
+      padding: 2.8% 0 4.2% 8.9%; }
+    .we-do .we-do-left-col-article {
+      padding: 0 8% 0 8.6%; }
+    .we-do .services {
+      padding: 7.6% 7% 0 8.7%; }
+  .why-pick-us {
+    background: url(../img/why-pick-us-logo.jpg) repeat;
+    padding: 0 0 24.1% 0; }
+    .why-pick-us .why-pick-us-title {
+      padding: 37.9% 0 0 0; }
+    .why-pick-us:before {
+      top: -7.4%;
+      left: -10.2%;
+      width: 510px;
+      height: 466px;
+      transform: rotate(3deg); }
+    .why-pick-us:after {
+      right: -7%;
+      bottom: -8.6%;
+      transform: rotate(7.2deg);
+      width: 708px;
+      height: 410px; }
+    .why-pick-us .why-pick-us-col-title {
+      padding: 60px 0px 7px 0px;
+      margin: 1px 3px 0 0px; }
+  .customer-review {
+    margin: 16.6% 0 14% 0; }
+    .customer-review .singleslider {
+      padding: 4.2% 0 0 0; }
+      .customer-review .singleslider .slick-prev:before {
+        left: -34px;
+        top: -160px; }
+      .customer-review .singleslider .slick-next:before {
+        left: 4px;
+        top: -160px; }
+      .customer-review .singleslider .slick-slide figure {
+        display: block; }
+        .customer-review .singleslider .slick-slide figure img {
+          margin: 0px auto;
+          margin-top: 30px; }
+    .customer-review .why-pick-us-col-descr {
+      padding: 0 6% 0 6%; }
+  .get-started {
+    background: url(../img/get-started-bg768.jpg) no-repeat;
+    background-position: 50% 118%; }
+    .get-started .get-started-overlay {
+      padding: 0 0 18.8% 0; }
+      .get-started .get-started-overlay .get-started-title {
+        margin: 33% 0 0.5% 0; }
+  footer .header-nav .footer-navigation {
+    margin-left: 27px;
+    float: left; }
+    footer .header-nav .footer-navigation .nav-item a {
+      padding: 31px 13.7px 30px 15px; }
+  .top-blue-row-title {
+    margin: 7.5% 0 9.4% -1%;
+    line-height: 39pt; }
+  .about-us-overview {
+    padding: 11% 0 11.5% 0; }
+    .about-us-overview-avatar figure img {
+      width: 100%; }
+    .about-us-overview-avatar-owner-name {
+      margin: 12% 0 0 -2%;
+      letter-spacing: 0.2px; }
+    .about-us-overview-certified {
+      margin: 20% 0 0 0; }
+      .about-us-overview-certified figure img {
+        width: 100%; }
+    .about-us-overview-article {
+      padding: 0 0 0 0; }
+    .about-us-overview-bold-text {
+      padding: 0;
+      margin: 4% 0 0 0; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  header .header-nav .navigation {
+    display: none;
+    margin: 0px auto;
+    width: 100%;
+    position: absolute;
+    top: 96px;
+    z-index: 20;
+    background-color: white;
+    left: 0px; }
+    header .header-nav .navigation .nav-item {
+      display: block;
+      text-align: center;
+      padding: 17.3px;
+      font-size: 20.4pt; }
+  header .header-nav .hamburger-menu {
+    float: right;
+    font-size: 37px;
+    border: 3px solid #5c9ded;
+    margin-right: 23px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    display: inline-block;
+    width: 55px;
+    height: 56px;
+    padding: 0px 0px 0 9px;
+    border-radius: 7px;
+    color: #5c9ded;
+    cursor: pointer; }
+  header .header-nav .logo {
+    margin-left: 19px; }
+    header .header-nav .logo a {
+      width: 190px;
+      padding-top: 11.3px; }
+  .super-accounting {
+    padding: 0 0 50.3% 0; }
+    .super-accounting .super-account-heading-1 {
+      margin: 14.4% 0 0 -1%;
+      font-size: 90px; }
+    .super-accounting .super-account-heading-2 {
+      font-size: 45px;
+      margin: -1% 0 6% -1px; }
+    .super-accounting .super-account-description {
+      font-size: 16px;
+      display: block;
+      width: 50%;
+      line-height: 24px;
+      padding-bottom: 9.1%; }
+    .super-accounting .super-account-contact-us {
+      width: 210px;
+      height: 46px;
+      font-size: 16px;
+      padding: 12px; }
+    .super-accounting figure {
+      left: -560px;
+      top: 14.3%;
+      width: 1600px; }
+  .we-do {
+    padding: 14.3% 0 24.2% 0; }
+    .we-do .we-do-title {
+      font-size: 52pt;
+      text-align: left;
+      margin: 0 0 0 -0.6%;
+      letter-spacing: 0.3px; }
+    .we-do .we-do-left-col-title {
+      font-size: 27pt;
+      padding: 6% 0 0 0;
+      letter-spacing: -0.1px; }
+    .we-do .we-do-left-col-article {
+      line-height: 24px;
+      padding: 8px 0 0 0;
+      font-size: 12pt;
+      letter-spacing: 0.33px; }
+    .we-do .services {
+      padding: 6.4% 0 0 0; }
+      .we-do .services .we-do-right-col-title {
+        font-size: 27.89pt;
+        margin-left: 26px;
+        letter-spacing: -0.6px;
+        width: 55%;
+        line-height: 33pt; }
+      .we-do .services .we-do-right-col-descr {
+        font-size: 12pt;
+        margin-top: -5px;
+        letter-spacing: 0.2px;
+        width: 64.2%;
+        margin-left: 6.5%; }
+    .we-do .bookkeeping:before {
+      background: url(../img/index-icons/bookkeeping_icon480.png) no-repeat;
+      width: 130px;
+      height: 130px;
+      top: 12px; }
+    .we-do .pricing:before {
+      background: url(../img/index-icons/pricing_icon480.png) no-repeat;
+      width: 130px;
+      height: 130px;
+      top: 12px; }
+    .we-do .tax:before {
+      background: url(../img/index-icons/tax_icon480.png) no-repeat;
+      width: 130px;
+      height: 130px;
+      top: 12px; }
+    .we-do .financial:before {
+      background: url(../img/index-icons/finance_icon480.png) no-repeat;
+      width: 130px;
+      height: 130px;
+      top: 12px; }
+  .why-pick-us {
+    background: url(../img/why-pick-us-logo.jpg) repeat;
+    padding: 0 0 40% 0; }
+    .why-pick-us:before {
+      width: 474px;
+      height: 436px;
+      top: -3.2%;
+      left: -11%;
+      transform: rotate(6deg); }
+    .why-pick-us:after {
+      bottom: -8%;
+      right: -12.7%;
+      transform: rotate(10.2deg);
+      width: 700px;
+      height: 441px; }
+    .why-pick-us .why-pick-us-title {
+      padding: 68.2% 0 0 0;
+      font-size: 52.1pt; }
+    .why-pick-us .title1:before {
+      background: url(../img/why-pick-us-xero480.png) no-repeat;
+      width: 131px;
+      height: 131px;
+      top: -33px;
+      left: 0px; }
+    .why-pick-us .title2:before {
+      background: url(../img/why-pick-us-tech480.png) no-repeat;
+      width: 131px;
+      height: 132px;
+      top: -33px;
+      left: 0px; }
+    .why-pick-us .title3:before {
+      background: url(../img/why-pick-us-implement480.png) no-repeat;
+      width: 131px;
+      height: 131px;
+      top: -33px;
+      left: 0px; }
+    .why-pick-us .why-pick-us-col-title {
+      font-size: 28pt;
+      padding: 18.5% 0 0.8% 0px; }
+    .why-pick-us .why-pick-us-col-descr {
+      width: 100%;
+      font-size: 12pt;
+      margin: 0 0 0 -3px;
+      line-height: 23px; }
+  .customer-review {
+    margin: 20% 0 39% 0; }
+    .customer-review .customer-review-title {
+      width: 69%;
+      display: block;
+      margin: 0 auto;
+      font-size: 52pt;
+      line-height: 54pt; }
+    .customer-review .singleslider {
+      width: 100%;
+      padding: 10.3% 0 0 3px; }
+      .customer-review .singleslider .slick-prev:before {
+        left: 25px;
+        top: -225px; }
+      .customer-review .singleslider .slick-next:before {
+        left: -55px;
+        top: 113px; }
+      .customer-review .singleslider .slick-dots {
+        bottom: -32%; }
+        .customer-review .singleslider .slick-dots li {
+          margin: 0 21px; }
+          .customer-review .singleslider .slick-dots li button:before {
+            font-size: 40px; }
+      .customer-review .singleslider .slick-slide {
+        letter-spacing: 0.8px; }
+        .customer-review .singleslider .slick-slide figure {
+          display: block; }
+          .customer-review .singleslider .slick-slide figure img {
+            margin: 0 auto; }
+  .get-started {
+    background: url(../img/get-started-bg480.jpg) no-repeat;
+    background-size: cover; }
+    .get-started .get-started-overlay {
+      padding: 0 0 25.5% 0; }
+      .get-started .get-started-overlay .get-started-title {
+        text-align: left;
+        font-size: 67pt;
+        margin: 39% 0 3% -5px; }
+      .get-started .get-started-overlay .get-started-descr {
+        text-align: left;
+        width: 63%;
+        font-size: 12pt;
+        line-height: 18pt; }
+      .get-started .get-started-overlay a {
+        margin: 24px 0 0 0;
+        width: 210px;
+        height: 49px;
+        font-size: 12pt;
+        padding: 14px; }
+  footer .header-nav .logo {
+    margin-left: 17px; }
+    footer .header-nav .logo a {
+      width: 208px;
+      padding-top: 6%; }
+      footer .header-nav .logo a img {
+        width: 208px; }
+  footer .header-nav .footer-navigation {
+    display: none; }
+  footer .footer-copyright {
+    margin: 4.5% 0 3% 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt; }
+  .top-blue-row-title {
+    margin: 15.5% 0 18.4% -1%;
+    line-height: 29pt;
+    font-size: 29.8pt; }
+  .about-us-overview {
+    padding: 11% 0 20.5% 0; }
+    .about-us-overview-avatar figure {
+      margin: 42px auto 0px auto;
+      display: block;
+      width: 288px;
+      height: 290px; }
+      .about-us-overview-avatar figure img {
+        width: 100%; }
+    .about-us-overview-avatar-owner-name {
+      margin: 4% 0 0.4% -2%;
+      letter-spacing: -0.4px;
+      font-size: 28pt; }
+    .about-us-overview-avatar-owner-status {
+      margin: 4% 0 0.4% -2%;
+      letter-spacing: -0.4px;
+      font-size: 28pt; }
+    .about-us-overview-certified {
+      margin: 20% 0 24% 0; }
+      .about-us-overview-certified figure {
+        width: 100%; }
+        .about-us-overview-certified figure img {
+          width: 60%;
+          margin: 0 auto;
+          display: block;
+          box-shadow: -3px 70px 50px -69px rgba(50, 50, 50, 0.75); }
+    .about-us-overview-article {
+      padding: 0 0 0 0; }
+    .about-us-overview-bold-text {
+      padding: 0;
+      margin: 6% 0 0 0;
+      font-size: 12pt;
+      line-height: 18pt; } }
+
+@media (min-width: 300px) and (max-width: 479px) {
+  header .header-nav .navigation {
+    display: none;
+    margin: 0px auto;
+    width: 100%;
+    position: absolute;
+    top: 62px;
+    z-index: 20;
+    background-color: white;
+    left: 0px; }
+    header .header-nav .navigation .nav-item {
+      display: block;
+      text-align: center;
+      padding: 17.3px;
+      font-size: 20.4pt; }
+  header .header-nav .hamburger-menu {
+    float: right;
+    font-size: 26px;
+    border: 2px solid #5c9ded;
+    margin-right: 4.6%;
+    margin-top: 4%;
+    margin-bottom: 3.5%;
+    width: 38px;
+    height: 38px;
+    padding: 0px 0px 0 6px;
+    font-weight: 100;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 7px;
+    color: #5c9ded; }
+  header .header-nav .logo {
+    margin-left: 5.5%; }
+    header .header-nav .logo a {
+      width: 126px;
+      padding-top: 6%; }
+  .super-accounting {
+    padding: 0 0 37.6% 0; }
+    .super-accounting .super-account-heading-1 {
+      margin: 10% 0 0 -1.6%;
+      font-size: 68pt; }
+    .super-accounting .super-account-heading-2 {
+      font-size: 34pt;
+      margin: -2% 0 11% -1%; }
+    .super-accounting .super-account-description {
+      font-size: 12pt;
+      line-height: 17.9pt;
+      width: 86%;
+      padding-bottom: 6%; }
+    .super-accounting .super-account-contact-us {
+      width: 184px;
+      height: 50px;
+      padding: 14px;
+      font-size: 12pt; }
+    .super-accounting figure {
+      width: 740px;
+      top: 50.9%;
+      left: -200px; }
+  .we-do {
+    padding: 14% 0 28.7% 0; }
+    .we-do .we-do-title {
+      font-size: 36pt;
+      text-align: left;
+      margin: 7% 0 0% 0; }
+    .we-do .we-do-left-col-title {
+      font-size: 19.5pt;
+      padding: 8% 0 3.6% 0; }
+    .we-do .we-do-left-col-article {
+      font-size: 12.2pt;
+      letter-spacing: 0.1px;
+      line-height: 24px; }
+    .we-do .services {
+      padding: 19% 0 0 0%; }
+      .we-do .services .we-do-right-col-title {
+        font-size: 20.5pt;
+        margin-left: 28px;
+        margin-top: 11px;
+        letter-spacing: -0.6px;
+        width: 60%;
+        line-height: 23pt;
+        margin-top: 7px; }
+      .we-do .services .we-do-right-col-descr {
+        margin: 2.2% 0 0 0;
+        font-size: 12.1pt;
+        width: 100%; }
+    .we-do .bookkeeping:before {
+      width: 77px;
+      height: 77px;
+      background: url(../img/index-icons/bookkeeping_icon320.png) no-repeat;
+      top: -13px; }
+    .we-do .pricing:before {
+      background: url(../img/index-icons/pricing_icon320.png) no-repeat;
+      width: 77px;
+      height: 77px;
+      top: -13px; }
+    .we-do .tax:before {
+      background: url(../img/index-icons/tax_icon320.png) no-repeat;
+      width: 77px;
+      height: 77px;
+      top: -13px; }
+    .we-do .financial:before {
+      background: url(../img/index-icons/finance_icon320.png) no-repeat;
+      width: 77px;
+      height: 77px;
+      top: -13px; }
+  .why-pick-us {
+    padding: 14% 0 37.7% 0;
+    background: url(../img/why-pick-us-logo.jpg) repeat; }
+    .why-pick-us:before {
+      top: -2%;
+      left: -20.1%;
+      width: 360px;
+      height: 314px;
+      transform: rotate(6deg); }
+    .why-pick-us:after {
+      width: 456px;
+      height: 250px;
+      right: -12.6%;
+      transform: rotate(11deg);
+      bottom: -4.2%; }
+    .why-pick-us .why-pick-us-title {
+      font-size: 36pt;
+      padding: 54% 0 0 0; }
+    .why-pick-us .why-pick-us-col-descr {
+      font-size: 12pt;
+      line-height: 18pt;
+      margin-bottom: 4px; }
+    .why-pick-us .why-pick-us-col-title {
+      font-size: 20pt;
+      padding: 17% 0 6% 0%; }
+    .why-pick-us .title1:before {
+      left: 0px;
+      top: -9px; }
+    .why-pick-us .title2:before {
+      left: 0px;
+      top: -9px; }
+    .why-pick-us .title3:before {
+      left: 0px;
+      top: -9px; }
+  .customer-review {
+    margin: 30% 0 1% 0; }
+    .customer-review .customer-review-title {
+      font-size: 36pt;
+      line-height: 36pt;
+      padding: 0 4%;
+      margin: -80px 0;
+      display: block; }
+    .customer-review .singleslider {
+      padding: 16% 0 0 0;
+      width: 100%; }
+      .customer-review .singleslider .slick-dots {
+        bottom: 1%; }
+        .customer-review .singleslider .slick-dots li {
+          margin: 0 9px; }
+          .customer-review .singleslider .slick-dots li button:before {
+            font-size: 25px; }
+      .customer-review .singleslider .slick-prev:before {
+        left: 21px;
+        top: -300px; }
+      .customer-review .singleslider .slick-next:before {
+        left: -53px;
+        top: 143px; }
+      .customer-review .singleslider .slick-slide span {
+        display: block;
+        width: 103%; }
+      .customer-review .singleslider .slick-slide figure {
+        display: block;
+        margin: 42px auto; }
+        .customer-review .singleslider .slick-slide figure img {
+          margin: 0 auto; }
+  .get-started {
+    background: url(../img/get-started-bg320.jpg) no-repeat;
+    background-size: cover; }
+    .get-started .get-started-overlay {
+      padding: 0 0 31% 0; }
+      .get-started .get-started-overlay .get-started-title {
+        margin: 31% 0 8% -1%;
+        font-size: 52pt;
+        text-align: left; }
+      .get-started .get-started-overlay .get-started-descr {
+        text-align: left;
+        font-size: 12pt;
+        line-height: 18pt;
+        margin: 0 0 8% 0; }
+      .get-started .get-started-overlay a {
+        margin: 0 0 0 0;
+        width: 183px;
+        height: 50px;
+        font-size: 16px;
+        padding: 14px; }
+  footer .header-nav .logo {
+    margin-left: 10px; }
+    footer .header-nav .logo a {
+      width: 147px;
+      padding-top: 3%; }
+      footer .header-nav .logo a img {
+        width: 147px; }
+  footer .header-nav .footer-navigation {
+    display: none; }
+  footer .footer-copyright {
+    font-size: 11pt;
+    text-align: left;
+    margin: 7% 0 0 4%;
+    width: 70%;
+    letter-spacing: -0.3px; }
+  .top-blue-row {
+    overflow: hidden; }
+    .top-blue-row figure {
+      margin: 0 -41px 0 0px;
+      width: 184px;
+      height: 113px; }
+      .top-blue-row figure img {
+        width: 100%; }
+    .top-blue-row-title {
+      margin: 17.5% 0 18.4% -1%;
+      line-height: 24pt;
+      font-size: 21.8pt; }
+  .about-us-overview {
+    padding: 11% 0 20.5% 0; }
+    .about-us-overview-avatar figure {
+      margin: 60px auto 0px auto;
+      display: block;
+      width: 183px;
+      height: 186px; }
+      .about-us-overview-avatar figure img {
+        width: 100%; }
+    .about-us-overview-avatar-owner-name {
+      margin: 1% 0 0% -2%;
+      letter-spacing: -0.4px;
+      font-size: 28pt; }
+    .about-us-overview-avatar-owner-status {
+      margin: 0% 0 0.4% 0%;
+      letter-spacing: -0.4px;
+      font-size: 13pt; }
+    .about-us-overview-certified {
+      margin: 20% 0 24% 0; }
+      .about-us-overview-certified figure img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        box-shadow: 0px 55px 42px -50px rgba(50, 50, 50, 0.75); }
+    .about-us-overview-article {
+      padding: 0 20px 0 0; }
+    .about-us-overview-bold-text {
+      padding: 0 24px 0 0px;
+      margin: 6% 0 0 0;
+      font-size: 12pt;
+      line-height: 18pt; } }
 
 /*# sourceMappingURL=main.css.map */

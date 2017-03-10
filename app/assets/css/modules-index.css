@@ -86,6 +86,8 @@
 
 .why-pick-us {
   position: relative; }
+  .why-pick-us .col-md-4 {
+    z-index: 5; }
   .why-pick-us:before {
     content: '';
     width: 470px;
@@ -93,8 +95,8 @@
     background: url(../img/why-pick-left-logo-01.svg) no-repeat;
     display: block;
     position: absolute;
-    top: -85px;
-    left: 322px; }
+    top: -15.4%;
+    left: 16.8%; }
   .why-pick-us:after {
     content: '';
     width: 540px;
@@ -102,9 +104,10 @@
     background: url(../img/why-pick-right-logo-01.svg) no-repeat;
     display: block;
     position: absolute;
-    right: 295px;
+    right: 15.4%;
     transform: rotate(7.2deg);
-    bottom: -78px; }
+    bottom: -14%;
+    z-index: 2; }
   .why-pick-us .why-pick-us-title {
     font-size: 44pt;
     font-family: 'Titillium Web', sans-serif;
@@ -155,13 +158,13 @@
     text-align: center;
     display: block;
     text-transform: capitalize;
-    padding: 62px 0 5px 0; }
+    padding: 61px 0px 5px 0px; }
   .why-pick-us .why-pick-us-col-descr {
     font-family: "Open Sans";
     font-size: 14px;
     color: #fff;
     text-align: center;
-    line-height: 22px; }
+    line-height: 21px; }
 
 .customer-review .customer-review-title {
   font-size: 44pt;
@@ -242,4 +245,5 @@
     text-align: center;
     text-transform: capitalize;
     padding: 11px;
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer; }
