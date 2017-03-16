@@ -1,0 +1,345 @@
+/* Modules Pricing */
+#modal_form-small, #modal_form-big, #modal_form-enterprise {
+  width: 800px;
+  height: 800px;
+  border-radius: 5px;
+  border: 3px #000 solid;
+  background: #fff;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -400px;
+  display: none;
+  opacity: 0;
+  z-index: 7;
+  padding: 67px 89px 0 89px; }
+  #modal_form-small .modal-form-title, #modal_form-big .modal-form-title, #modal_form-enterprise .modal-form-title {
+    text-transform: capitalize;
+    color: #393939;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45pt;
+    text-align: center;
+    letter-spacing: 1px; }
+    #modal_form-small .modal-form-title span, #modal_form-big .modal-form-title span, #modal_form-enterprise .modal-form-title span {
+      color: #26538a; }
+  #modal_form-small .modal-form-subtitle, #modal_form-big .modal-form-subtitle, #modal_form-enterprise .modal-form-subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #3b3b3b; }
+  #modal_form-small .modal-form-subtitle, #modal_form-big .modal-form-subtitle, #modal_form-enterprise .modal-form-subtitle {
+    text-align: center;
+    margin-top: -3px;
+    margin-bottom: 42px; }
+  #modal_form-small .personal-info, #modal_form-big .personal-info, #modal_form-enterprise .personal-info {
+    width: 50%;
+    float: left; }
+  #modal_form-small .business-info, #modal_form-big .business-info, #modal_form-enterprise .business-info {
+    width: 50%;
+    float: left; }
+  #modal_form-small .accounting-software, #modal_form-big .accounting-software, #modal_form-enterprise .accounting-software {
+    width: 100%; }
+  #modal_form-small .feature-set-title, #modal_form-big .feature-set-title, #modal_form-enterprise .feature-set-title {
+    text-align: center; }
+  #modal_form-small .feature-set, #modal_form-big .feature-set, #modal_form-enterprise .feature-set {
+    text-align: center; }
+  #modal_form-small .submit-input-pricing, #modal_form-big .submit-input-pricing, #modal_form-enterprise .submit-input-pricing {
+    display: block;
+    margin: 0 auto; }
+
+.modal_close {
+  width: 37px;
+  height: 39px;
+  position: absolute;
+  top: 13px;
+  right: 24px;
+  cursor: pointer;
+  display: block; }
+  .modal_close .fa-times {
+    font-size: 34pt;
+    font-weight: 100;
+    line-height: 30pt; }
+
+#overlay {
+  z-index: 6;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  display: none; }
+
+.top-blue-row-pricing {
+  background: url(../img/top-blue-row-bg.png) repeat-x;
+  padding: 0 0 0px 0; }
+  .top-blue-row-pricing-title {
+    color: #334e82;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 37pt;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    margin: 41px 0 39px -2px;
+    width: 103%; }
+    .top-blue-row-pricing-title span {
+      color: #fff; }
+  .top-blue-row-pricing figure {
+    float: right;
+    margin: 0 -3px 0px 0px;
+    width: 100%; }
+    .top-blue-row-pricing figure img {
+      width: 100%; }
+
+.choose-pricing-plan {
+  padding: 104px 0 62px 0; }
+  .choose-pricing-plan-col-wrap {
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 45px 0 45px 0; }
+    .choose-pricing-plan-col-wrap:hover {
+      background-color: rgba(242, 243, 244, 0.8); }
+    .choose-pricing-plan-col-wrap .pricing-plan-title {
+      font-weight: bold;
+      color: #393939;
+      font-size: 17pt;
+      text-transform: capitalize;
+      margin: 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-title span {
+        color: #26538a; }
+    .choose-pricing-plan-col-wrap .pricing-plan-price {
+      color: #393939;
+      font-weight: bold;
+      font-size: 16pt;
+      letter-spacing: 0.7px;
+      margin: 6px 0 0 -7px;
+      padding: 0px 0px 0 0;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%; }
+      .choose-pricing-plan-col-wrap .pricing-plan-price span {
+        color: #5c9ded;
+        font-size: 44pt;
+        line-height: 88px;
+        display: inline-block;
+        vertical-align: middle; }
+    .choose-pricing-plan-col-wrap .pricing-plan-features {
+      font-family: "Open Sans", sans-serif;
+      margin: 3px 0 30px 0px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features p {
+        margin: 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features .features {
+        margin: 0 0 8px 0px;
+        color: #c1c1c1; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features .enabled-feature {
+        color: #3b3b3b; }
+        .choose-pricing-plan-col-wrap .pricing-plan-features .enabled-feature:before {
+          content: '';
+          width: 13px;
+          height: 10px;
+          color: #26538a;
+          background: url(../img/pricing-check-mark.png) no-repeat;
+          display: inline-block;
+          position: relative;
+          left: -6px; }
+    .choose-pricing-plan-col-wrap .pricing-plan-get-started-btn {
+      width: 212px;
+      height: 43px;
+      border-radius: 4px;
+      background-color: #2f7fe2;
+      border: none;
+      color: white;
+      font-size: 11.3pt; }
+
+#modal_form-small input[type="text"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-small input[type="number"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-small input[type="email"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-small #small-plan-form .personal-info p {
+  margin: 0px; }
+
+#modal_form-small #small-plan-form .personal-info input {
+  width: 293px;
+  margin: 0 0 42px 0; }
+
+#modal_form-small #small-plan-form .personal-info .input-username {
+  text-transform: capitalize; }
+
+#modal_form-small #small-plan-form .business-info p {
+  margin: 0px; }
+
+#modal_form-small #small-plan-form .business-info input {
+  width: 293px;
+  margin: 0 0 42px 14px; }
+  #modal_form-small #small-plan-form .business-info input[type="text"] {
+    text-transform: uppercase; }
+
+#modal_form-small .feature-set-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17pt;
+  color: #393939;
+  font-weight: bold;
+  margin: 45px 0 27px 0; }
+  #modal_form-small .feature-set-title span {
+    color: #26538a; }
+
+#modal_form-small input[type="checkbox"] {
+  margin-right: 4px; }
+
+#modal_form-small .submit-input-pricing {
+  width: 212px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #5c9ded;
+  border: 0px; }
+
+#modal_form-big input[type="text"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-big input[type="number"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-big input[type="email"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-big #big-plan-form .personal-info p {
+  margin: 0px; }
+
+#modal_form-big #big-plan-form .personal-info input {
+  width: 293px;
+  margin: 0 0 42px 0; }
+
+#modal_form-big #big-plan-form .personal-info .input-username {
+  text-transform: capitalize; }
+
+#modal_form-big #big-plan-form .business-info p {
+  margin: 0px; }
+
+#modal_form-big #big-plan-form .business-info input {
+  width: 293px;
+  margin: 0 0 42px 14px; }
+  #modal_form-big #big-plan-form .business-info input[type="text"] {
+    text-transform: uppercase; }
+
+#modal_form-big .feature-set-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17pt;
+  color: #393939;
+  font-weight: bold;
+  margin: 45px 0 27px 0; }
+  #modal_form-big .feature-set-title span {
+    color: #26538a; }
+
+#modal_form-big input[type="checkbox"] {
+  margin-right: 4px; }
+
+#modal_form-big .submit-input-pricing {
+  width: 212px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #5c9ded;
+  border: 0px; }
+
+#modal_form-enterprise input[type="text"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-enterprise input[type="number"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-enterprise input[type="email"] {
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f2f3f4;
+  font-size: 11pt;
+  height: 43px;
+  padding: 0 14px; }
+
+#modal_form-enterprise #enterprise-plan-form .personal-info p {
+  margin: 0px; }
+
+#modal_form-enterprise #enterprise-plan-form .personal-info input {
+  width: 293px;
+  margin: 0 0 42px 0; }
+
+#modal_form-enterprise #enterprise-plan-form .personal-info .input-username {
+  text-transform: capitalize; }
+
+#modal_form-enterprise #enterprise-plan-form .business-info p {
+  margin: 0px; }
+
+#modal_form-enterprise #enterprise-plan-form .business-info input {
+  width: 293px;
+  margin: 0 0 42px 14px; }
+  #modal_form-enterprise #enterprise-plan-form .business-info input[type="text"] {
+    text-transform: uppercase; }
+
+#modal_form-enterprise .feature-set-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17pt;
+  color: #393939;
+  font-weight: bold;
+  margin: 45px 0 27px 0; }
+  #modal_form-enterprise .feature-set-title span {
+    color: #26538a; }
+
+#modal_form-enterprise input[type="checkbox"] {
+  margin-right: 4px; }
+
+#modal_form-enterprise .submit-input-pricing {
+  width: 212px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #5c9ded;
+  border: 0px; }

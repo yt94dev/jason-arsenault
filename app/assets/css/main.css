@@ -5671,7 +5671,9 @@ footer {
       margin: 22% 0 0.6% 0; }
   .customer-review .singleslider {
     padding: 3.5% 0 0 0;
-    margin-bottom: 43px !important; } }
+    margin-bottom: 43px !important; }
+  .choose-pricing-plan-col-wrap .pricing-plan-title {
+    letter-spacing: 0.8px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   header .header-nav .logo {
@@ -5779,7 +5781,75 @@ footer {
       padding: 0 0 0 0; }
     .about-us-overview-bold-text {
       padding: 0;
-      margin: 4% 0 0 0; } }
+      margin: 4% 0 0 0; }
+  .top-blue-row-pricing-title {
+    margin: 8% 0 7% -1%;
+    line-height: 38pt; }
+  .top-blue-row-pricing figure {
+    margin: 0 0px 0 0;
+    width: 103%; }
+  .choose-pricing-plan {
+    padding: 9.6% 0 10.6% 0px; }
+    .choose-pricing-plan-col-wrap {
+      padding: 46px 0 46px 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-title {
+        line-height: 23.99pt;
+        letter-spacing: -0.2px;
+        margin: 0 0 0 -2px;
+        font-size: 20pt;
+        padding: 0 17px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features {
+        margin: 3px 0 31px 0px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-get-started-btn {
+        width: 78%; }
+  #modal_form-small, #modal_form-big, #modal_form-enterprise {
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+    padding: 4px 28px 0 28px; }
+  #modal_form-small input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-small #small-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-small #small-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-small #small-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-small #small-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-big input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-big #big-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-big #big-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-big #big-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-big #big-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-enterprise #enterprise-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise #enterprise-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; } }
 
 @media (min-width: 480px) and (max-width: 767px) {
   header .header-nav .navigation {
@@ -6031,7 +6101,93 @@ footer {
       padding: 0;
       margin: 6% 0 0 0;
       font-size: 12pt;
-      line-height: 18pt; } }
+      line-height: 18pt; }
+  .top-blue-row-pricing-title {
+    font-size: 30pt;
+    line-height: 30pt;
+    margin: 12.7% 0 14% 0;
+    letter-spacing: -0.2px;
+    position: relative;
+    z-index: 6; }
+  .top-blue-row-pricing figure {
+    margin: 0 0px 0 0;
+    width: 165%;
+    z-index: 3;
+    position: relative; }
+  .choose-pricing-plan {
+    padding: 20.1% 0 9.4% 0; }
+    .choose-pricing-plan-col-wrap {
+      padding: 11.6% 0 10.6% 0;
+      margin: 0 0 50px 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-title {
+        line-height: 23.99pt;
+        letter-spacing: 0.2px;
+        margin: 0 0 0 -3px;
+        font-size: 28pt;
+        padding: 0 17px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-price {
+        font-size: 22pt;
+        margin: 19px 0 0 -6px;
+        letter-spacing: -0.3px;
+        padding: 0px 0px 0 0; }
+        .choose-pricing-plan-col-wrap .pricing-plan-price .price-num {
+          font-size: 60pt;
+          line-height: 90px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features {
+        margin: 0 0 43px 0;
+        font-size: 13pt; }
+      .choose-pricing-plan-col-wrap .pricing-plan-get-started-btn {
+        width: 47%;
+        font-size: 12pt;
+        height: 49px; }
+  #modal_form-small, #modal_form-big, #modal_form-enterprise {
+    width: 460px;
+    height: 660px;
+    margin-top: -330px;
+    margin-left: -230px;
+    padding: 22px 28px 0 28px; }
+  #modal_form-small input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-small #small-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-small #small-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-small #small-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-small #small-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-big input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-big #big-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-big #big-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-big #big-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-big #big-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-enterprise #enterprise-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise #enterprise-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; } }
 
 @media (min-width: 300px) and (max-width: 479px) {
   header .header-nav .navigation {
@@ -6279,6 +6435,93 @@ footer {
       padding: 0 24px 0 0px;
       margin: 6% 0 0 0;
       font-size: 12pt;
-      line-height: 18pt; } }
+      line-height: 18pt; }
+  .top-blue-row-pricing-title {
+    font-size: 19pt;
+    line-height: 30pt;
+    margin: 12.7% 0 14% 0;
+    letter-spacing: -0.2px;
+    position: relative;
+    z-index: 6; }
+  .top-blue-row-pricing figure {
+    margin: 0 0px 0 0;
+    width: 230%;
+    z-index: 3;
+    position: relative; }
+  .choose-pricing-plan {
+    adding: 23.1% 0 20% 0; }
+    .choose-pricing-plan-col-wrap {
+      padding: 13% 0 16.6% 0;
+      margin: 0 0 50px 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-title {
+        letter-spacing: 0.2px;
+        font-size: 26pt;
+        line-height: 32pt;
+        margin: 0 0 0 0; }
+      .choose-pricing-plan-col-wrap .pricing-plan-price {
+        font-size: 22pt;
+        margin: 4px 0 4px 0px;
+        letter-spacing: -0.3px;
+        padding: 0px 0px 0 0; }
+        .choose-pricing-plan-col-wrap .pricing-plan-price .price-num {
+          font-size: 60pt;
+          line-height: 90px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-features {
+        margin: 0 0 34px 0;
+        font-size: 13pt; }
+        .choose-pricing-plan-col-wrap .pricing-plan-features .features {
+          margin: 4px 0 8px 0px; }
+      .choose-pricing-plan-col-wrap .pricing-plan-get-started-btn {
+        width: 73%;
+        font-size: 12pt;
+        height: 49px; }
+  #modal_form-small, #modal_form-big, #modal_form-enterprise {
+    width: 300px;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -150px;
+    padding: 22px 28px 0 28px; }
+  #modal_form-small input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-small #small-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-small #small-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-small #small-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-small #small-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-big input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-big #big-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-big #big-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-big #big-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-big #big-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise input[type="text"] {
+    font-size: 11pt;
+    height: 43px;
+    padding: 0 18px; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set-title {
+    margin: 14px 0 14px 0; }
+  #modal_form-enterprise #enterprise-plan-form .feature-set {
+    margin: 0 0 27px 0; }
+  #modal_form-enterprise #enterprise-plan-form .personal-info input {
+    width: 95%;
+    margin: 0 0 23px 0; }
+  #modal_form-enterprise #enterprise-plan-form .business-info input {
+    width: 100%;
+    margin: 0 0 23px 0; } }
 
 /*# sourceMappingURL=main.css.map */
