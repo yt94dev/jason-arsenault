@@ -158,7 +158,81 @@ $(document).ready(function(){
   });
 
 
-  
+  // Contact  page form handler
+
+  $("#contact-form-send-mail").submit(function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "contact.php",
+      data: $("#contact-form-send-mail").serialize(),
+      dataType: 'text',
+      success: function(response) {
+        response = eval(response);
+        alert("Information is sent!");
+      }
+    });
+  });
+
+
+
+  // Client  page form handler
+
+  $("#client-form-send-mail-files").submit(function(e) {
+    if( document.getElementById("file-input").files.length == 0 ){
+      e.preventDefault();
+      alert("Please select files to upload, before submit!");
+    }else{
+
+
+      var formData = new FormData($(this)[0]);
+
+      $.ajax({
+        url: "client.php",
+        type: 'POST',
+        data: formData,
+        async: true,
+        success: function (data) {
+          alert('Information and files is sent!');
+        },
+        cache: false,
+        contentType: false,
+        processData: false,
+        xhr: function () {
+          var xhr = new window.XMLHttpRequest();
+          xhr.upload.addEventListener("progress", function (evt) {
+            if (evt.lengthComputable) {
+              var percentComplete = evt.loaded / evt.total;
+              $('#progressbar').val(percentComplete * 100);
+              $('.progress-percentage').text(Math.round(percentComplete * 100) + '%');
+              if (percentComplete === 1) {
+                $('.client-form-msg').text('Download is complete!');
+              }else{
+                $('.client-form-msg').text('Wait until download is complete!!');
+              }
+
+            }
+          }, true);
+          xhr.addEventListener("progress", function (evt) {
+            if (evt.lengthComputable) {
+              var percentComplete = evt.loaded / evt.total;
+              $('#progressbar').val(percentComplete * 100);
+            }
+          }, true);
+          return xhr;
+        }
+      });
+
+      return false;
+    }
+
+
+
+  });
+
+
+
 
 });
 

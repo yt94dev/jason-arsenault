@@ -47,6 +47,34 @@ var gulp = require('gulp'),
         .pipe(gulp.dest('app/assets/css'));
       console.log("sass compilation complete");
     }),
+    "sass-compile-modules-pricing" : (function () {
+      return gulp.src('src/sass/modules-pricing.sass')
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('app/assets/css'));
+      console.log("sass compilation complete");
+    }),
+    "sass-compile-modules-contact" : (function () {
+      return gulp.src('src/sass/modules-contact.sass')
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('app/assets/css'));
+      console.log("sass compilation complete");
+    }),
+    "sass-compile-modules-client" : (function () {
+      return gulp.src('src/sass/modules-client.sass')
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('app/assets/css'));
+      console.log("sass compilation complete");
+    }),
+    "sass-compile-modules-blog" : (function () {
+      return gulp.src('src/sass/modules-blog.sass')
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(gulp.dest('app/assets/css'));
+      console.log("sass compilation complete");
+    }),
     "autoprefixize" : (function () {
       gulp.src('app/assets/css/main.css')
         .pipe(autoprefixer({
@@ -67,7 +95,7 @@ var gulp = require('gulp'),
   });
 
   gulp.task('watch', function() {
-    gulp.watch('src/sass/*.sass', ['sass-compile', 'sass-compile-modules-index', 'sass-compile-modules-about', 'autoprefixize', 'sass-source-map'])
+    gulp.watch('src/sass/*.sass', ['sass-compile', 'sass-compile-modules-index', 'sass-compile-modules-about', 'sass-compile-modules-pricing', 'sass-compile-modules-contact', 'sass-compile-modules-client', 'sass-compile-modules-blog', 'autoprefixize', 'sass-source-map'])
   });
 
-  gulps.registerSeries("default", ["js-min", "sass-compile", "sass-compile-modules-index", "sass-compile-modules-about", "autoprefixize", "sass-source-map"]);
+  gulps.registerSeries("default", ["js-min", "sass-compile", "sass-compile-modules-index", "sass-compile-modules-about", "sass-compile-modules-pricing", "sass-compile-modules-contact", "sass-compile-modules-client", "sass-compile-modules-blog", "autoprefixize", "sass-source-map"]);

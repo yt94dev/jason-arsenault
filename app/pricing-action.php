@@ -49,7 +49,7 @@ if ((isset($_POST['username']) && $_POST['username'] != "")
 
 
     $headers = "Content-type: text/html; charset=utf-8 \r\n";
-    $headers .= "From: J.A. Pricing <from@jasonarsenault-pricing>\r\n";
+    $headers .= "From: Payrollbookstaxes.com <from@payrollbookstaxes>\r\n";
     mail($to, $subject, $message, $headers);
 
 }

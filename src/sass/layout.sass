@@ -172,6 +172,28 @@ footer
       .hamburger-menu
         display: none
 
+  .map
+    overflow: hidden
+
+    .contact-map-1920
+      display: none
+
+    .contact-map-1280
+      margin: 0 auto
+      display: inherit
+
+    .contact-map-1024
+      display: none
+
+    .contact-map-768
+      display: none
+
+    .contact-map-480
+      display: none
+
+    .contact-map-320
+      display: none
+
 @media screen and (min-width: 992px) and (max-width: 1199px)
   header
     .header-nav
@@ -257,6 +279,35 @@ footer
     .singleslider
       padding: 3.5% 0 0 0
       margin-bottom: 43px!important
+
+  .choose-pricing-plan
+
+    &-col-wrap
+
+      .pricing-plan-title
+        letter-spacing: 0.8px
+
+  .map
+    overflow: hidden
+
+    .contact-map-1920
+      display: none
+
+    .contact-map-1280
+      display: none
+
+    .contact-map-1024
+      margin: 0 auto
+      display: inherit
+
+    .contact-map-768
+      display: none
+
+    .contact-map-480
+      display: none
+
+    .contact-map-320
+      display: none
 
 
 @media (min-width: 768px) and (max-width: 991px)
@@ -393,6 +444,30 @@ footer
           a
             padding: 31px 13.7px 30px 15px
 
+  .map
+    overflow: hidden
+
+    .contact-map-1920
+      display: none
+
+    .contact-map-1280
+      display: none
+
+    .contact-map-1024
+      display: none
+
+    .contact-map-768
+      margin: 0 auto
+      display: inherit
+
+    .contact-map-480
+      display: none
+
+    .contact-map-320
+      display: none
+
+
+
   .top-blue-row
     &-title
       margin: 7.5% 0 9.4% -1%
@@ -424,6 +499,231 @@ footer
       padding: 0
       margin: 4% 0 0 0
 
+  .top-blue-row-pricing
+    overflow: hidden
+
+    &-title
+      margin: 8% 0 7% -1%
+      line-height: 38pt
+
+    figure
+      margin: 0 0px 0 0
+      width: 103%
+
+  .choose-pricing-plan
+    padding: 9.6% 0 10.6% 0px
+
+    &-col-wrap
+      padding: 46px 0 46px 0
+
+      .pricing-plan-title
+        line-height: 23.99pt
+        letter-spacing: -0.2px
+        margin: 0 0 0 -2px
+        font-size: 20pt
+        padding: 0 17px
+
+      .pricing-plan-features
+        margin: 3px 0 31px 0px
+
+      .pricing-plan-get-started-btn
+        width: 78%
+
+  #modal_form-small, #modal_form-big, #modal_form-enterprise
+    width: 600px
+    height: 600px
+    margin-top: -300px
+    margin-left: -300px
+    padding: 4px 28px 0 28px
+
+  #modal_form-small
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #small-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-big
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #big-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-enterprise
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #enterprise-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  .top-blue-row-contact
+
+    figure
+
+      img
+        width: 82%
+        float: right
+
+  .contact-send-mail
+    margin: 11% 0 5.6% 0
+
+    #contact-form-send-mail
+
+      .contact-form-send-mail-1row
+
+        input
+
+          &[type="text"]
+            margin: 0 27px 0 0px
+
+  .top-blue-row-client
+    background: url(../img/top-blue-row-bg.png) repeat-x
+    padding: 0 0 0px 0
+
+    &-title
+      margin: 6.7% 0 6% -3px
+      line-height: 38pt
+
+      span
+        color: #fff
+
+    figure
+
+      img
+        width: 100%
+        float: right
+
+  .client-area
+    margin: 10.7% 0 10.9% 0
+
+    #client-form-send-mail-files
+      input
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 0 14px
+        height: 42px
+
+      .client-form-send-mail-files-1row
+        margin: 1px 0 43px 0
+
+        input
+          width: 46.8%
+          &[type="text"]
+            margin-right: 26px
+
+      .client-form-send-mail-files-2row
+        margin: 0 0 42px 0
+
+        input
+          width: 46.8%
+
+          &:first-child
+            margin-right: 26px
+
+      textarea
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 12px 14px
+        resize: none
+        width: 100%
+        height: 108px
+
+      .choose-files-row
+        margin: 7.5% 0 12px 0
+        clear: both
+        overflow: auto
+
+        label
+          width: 220px
+          height: 43px
+          padding: 11px
+          float: left
+
+          .btn-file
+            position: relative
+            overflow: hidden
+
+        span
+          margin: 0 0 0 29px
+          display: inline
+          line-height: 16pt
+          text-align: left
+          float: left
+          width: 46%
+
+      .progress-bar-row
+        position: relative
+
+        progress
+          width: 96%
+
+        .progress-percentage
+          margin: -2px 0 0 2px
+          display: inline-block
+          position: absolute
+
+      .submit-input-client
+        width: 220px
+        height: 43px
+        border-radius: 4px
+        background-color: #5c9ded
+        color: white
 
 @media (min-width: 480px) and (max-width: 767px)
   header
@@ -709,9 +1009,15 @@ footer
 
   .top-blue-row
     &-title
-      margin: 15.5% 0 18.4% -1%
+      margin: 18.5% 0 18.4% -1%
       line-height: 29pt
       font-size: 29.8pt
+
+    figure
+      margin: 0 20% 0px 0px
+
+      img
+        width: 118%
 
   .about-us-overview
     padding: 11% 0 20.5% 0
@@ -755,6 +1061,328 @@ footer
       margin: 6% 0 0 0
       font-size: 12pt
       line-height: 18pt
+
+  .top-blue-row-pricing
+
+    &-title
+      font-size: 30pt
+      line-height: 30pt
+      margin: 12.7% 0 14% 0
+      letter-spacing: -0.2px
+      position: relative
+      z-index: 6
+
+    figure
+      margin: 0 0px 0 0
+      width: 165%
+      z-index: 3
+      position: relative
+
+  .choose-pricing-plan
+    padding: 20.1% 0 9.4% 0
+
+    &-col-wrap
+      padding: 11.6% 0 10.6% 0
+      margin: 0 0 50px 0
+
+      .pricing-plan-title
+        line-height: 23.99pt
+        letter-spacing: 0.2px
+        margin: 0 0 0 -3px
+        font-size: 28pt
+        padding: 0 17px
+
+      .pricing-plan-price
+        font-size: 22pt
+        margin: 19px 0 0 -6px
+        letter-spacing: -0.3px
+        padding: 0px 0px 0 0
+
+        .price-num
+          font-size: 60pt
+          line-height: 90px
+
+      .pricing-plan-features
+        margin: 0 0 43px 0
+        font-size: 13pt
+
+
+      .pricing-plan-get-started-btn
+        width: 47%
+        font-size: 12pt
+        height: 49px
+
+  #modal_form-small, #modal_form-big, #modal_form-enterprise
+    width: 460px
+    height: 660px
+    margin-top: -330px
+    margin-left: -230px
+    padding: 22px 28px 0 28px
+
+  #modal_form-small
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #small-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-big
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #big-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-enterprise
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #enterprise-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+
+
+  .map
+    overflow: hidden
+
+    .contact-map-1920
+      display: none
+
+    .contact-map-1280
+      display: none
+
+    .contact-map-1024
+      display: none
+
+    .contact-map-768
+      display: none
+
+    .contact-map-480
+      margin: 0 auto
+      display: inherit
+
+    .contact-map-320
+      display: none
+
+  .top-blue-row-contact
+
+    &-title
+      font-size: 30pt
+      font-weight: 600
+      margin: 15% 0 17% -1px
+      line-height: 30pt
+
+    figure
+
+      img
+        width: 107%
+        float: right
+
+  .contact-send-mail
+    margin: 18% 0 20% 0
+
+    .contact-credentials
+      text-align: center
+      margin: 4px 0 42px 0
+
+      &-title
+        font-size: 27pt
+
+      &-about
+        font-size: 12pt
+        line-height: 21pt
+
+      .email-contact-title
+        font-size: 27pt
+
+    #contact-form-send-mail
+      .contact-form-send-mail-1row
+        margin: 6px 0 0 0
+
+        input
+          &[type="text"]
+            width: 100%
+            margin: 0 0 56px 0
+
+          &[type="email"]
+            width: 100%
+
+      .contact-form-send-mail-2row
+        margin: 11.3% 0 12% 0
+
+      textarea
+        margin: 0 0 27% 0
+
+    .submit-input-contact
+      margin: 0 auto
+      display: inherit
+      height: 49px
+
+  .top-blue-row-client
+    background: url(../img/top-blue-row-bg.png) repeat-x
+    padding: 0 0 0px 0
+    overflow: hidden
+
+    &-title
+      margin: 11.3% 0 9% -3px
+      line-height: 30pt
+      font-size: 29.8pt
+
+      span
+        color: #fff
+
+    figure
+
+      img
+        width: 302%
+        float: right
+
+  .client-area
+    margin: 18.3% 0 16.9% 0
+
+    &-article-title
+      font-size: 26pt
+      margin: 5px 0 0 -1px
+
+    &-article
+      margin: 5px 0 0 0
+      line-height: 18.2pt
+
+    #client-form-send-mail-files
+      input
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 0 14px
+        height: 49px
+
+      .client-form-send-mail-files-1row
+        margin: 16% 0 0px 0
+
+        input
+          width: 100%
+          margin-bottom: 47px
+
+          &[type="text"]
+            margin-right: 0px
+
+      .client-form-send-mail-files-2row
+        margin: 0 0 0px 0
+
+        input
+          width: 100%
+
+          &:first-child
+            margin-right: 0px
+
+          &[type="text"]
+            margin-bottom: 48px
+
+      textarea
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 12px 14px
+        resize: none
+        width: 100%
+        height: 145px
+
+      .choose-files-row
+        margin: 9.9% 0 12px 0
+        clear: both
+        overflow: auto
+
+        label
+          width: 210px
+          height: 49px
+          padding: 11px
+          float: left
+
+          .btn-file
+            position: relative
+            overflow: hidden
+
+        span
+          margin: 0 0 0 29px
+          display: inline
+          line-height: 18pt
+          text-align: left
+          float: left
+          width: 46%
+          font-size: 12pt
+
+      .progress-bar-row
+        position: relative
+
+        progress
+          width: 96%
+
+        .progress-percentage
+          margin: -2px 0 0 2px
+          display: inline-block
+          position: absolute
+
+      .submit-input-client
+        width: 213px
+        height: 49px
+        border-radius: 4px
+        background-color: #5c9ded
+        color: white
+        margin: 15px auto
+        display: inherit
 
 
 
@@ -1038,7 +1666,7 @@ footer
       height: 113px
 
       img
-        width: 100%
+        width: 124%
 
     &-title
       margin: 17.5% 0 18.4% -1%
@@ -1086,3 +1714,343 @@ footer
       margin: 6% 0 0 0
       font-size: 12pt
       line-height: 18pt
+
+  .top-blue-row-pricing
+
+    &-title
+      font-size: 19pt
+      line-height: 30pt
+      margin: 12.7% 0 14% 0
+      letter-spacing: -0.2px
+      position: relative
+      z-index: 6
+
+    figure
+      margin: 0 0px 0 0
+      width: 230%
+      z-index: 3
+      position: relative
+
+  .choose-pricing-plan
+    adding: 23.1% 0 20% 0
+
+    &-col-wrap
+      padding: 13% 0 16.6% 0
+      margin: 0 0 50px 0
+
+      .pricing-plan-title
+        letter-spacing: 0.2px
+        font-size: 26pt
+        line-height: 32pt
+        margin: 0 0 0 0
+
+      .pricing-plan-price
+        font-size: 22pt
+        margin: 4px 0 4px 0px
+        letter-spacing: -0.3px
+        padding: 0px 0px 0 0
+
+        .price-num
+          font-size: 60pt
+          line-height: 90px
+
+      .pricing-plan-features
+        margin: 0 0 34px 0
+        font-size: 13pt
+
+        .features
+          margin: 4px 0 8px 0px
+
+
+      .pricing-plan-get-started-btn
+        width: 73%
+        font-size: 12pt
+        height: 49px
+
+  #modal_form-small, #modal_form-big, #modal_form-enterprise
+    width: 300px
+    height: 800px
+    margin-top: -400px
+    margin-left: -150px
+    padding: 22px 28px 0 28px
+
+  #modal_form-small
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #small-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-big
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #big-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+  #modal_form-enterprise
+    input
+      &[type="text"]
+        font-size: 11pt
+        height: 43px
+        padding: 0 18px
+
+    #enterprise-plan-form
+      .feature-set-title
+        margin: 14px 0 14px 0
+
+      .feature-set
+        margin: 0 0 27px 0
+
+      .personal-info
+        input
+          width: 95%
+          margin: 0 0 23px 0
+
+      .business-info
+        input
+          width: 100%
+          margin: 0 0 23px 0
+
+
+
+  .map
+    overflow: hidden
+
+    .contact-map-1920
+      display: none
+
+    .contact-map-1280
+      display: none
+
+    .contact-map-1024
+      display: none
+
+    .contact-map-768
+      display: none
+
+    .contact-map-480
+      display: none
+
+    .contact-map-320
+      margin: 0 auto
+      display: inherit
+
+
+  .top-blue-row-contact
+    overflow: hidden
+
+    &-title
+      font-size: 22pt
+      font-weight: 600
+      margin: 15% 0 9% -1px
+      line-height: 30pt
+
+    figure
+      margin-right: -41px
+
+      img
+        width: 130%
+        float: right
+
+  .contact-send-mail
+    margin: 27% 0 29% 0
+
+    .contact-credentials
+      text-align: center
+      margin: 4px 0 42px 0
+
+      &-title
+        font-size: 27pt
+
+      &-about
+        font-size: 12pt
+        line-height: 21pt
+
+      .email-contact-title
+        font-size: 27pt
+
+    #contact-form-send-mail
+      .contact-form-send-mail-1row
+        margin: 6px 0 0 0
+
+        input
+          &[type="text"]
+            width: 100%
+            margin: 0 0 48px 0
+            height: 48px
+
+          &[type="email"]
+            width: 100%
+            height: 48px
+
+      .contact-form-send-mail-2row
+        margin: 16.3% 0 16% 0
+
+        input
+          height: 50px
+
+      textarea
+        margin: 0 0 12% 0
+        height: 194px
+
+    .submit-input-contact
+      margin: 0 auto
+      display: inherit
+      height: 49px
+
+  .top-blue-row-client
+    background: url(../img/top-blue-row-bg.png) repeat-x
+    padding: 0 0 0px 0
+    overflow: hidden
+
+    &-title
+      margin: 20.3% 0 19% -3px
+      line-height: 20pt
+      font-size: 19pt
+
+      span
+        color: #fff
+
+    figure
+
+      img
+        width: 500%
+        float: right
+
+  .client-area
+    margin: 27.3% 0 22.6% 0
+
+    &-article-title
+      font-size: 26pt
+      margin: 5px 0 0 -1px
+
+    &-article
+      margin: 5px 0 0 0
+      line-height: 18.2pt
+
+    #client-form-send-mail-files
+      input
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 0 14px
+        height: 49px
+
+      .client-form-send-mail-files-1row
+        margin: 25% 0 0px 0
+
+        input
+          width: 100%
+          margin-bottom: 47px
+
+          &[type="text"]
+            margin-right: 0px
+
+      .client-form-send-mail-files-2row
+        margin: 0 0 0px 0
+
+        input
+          width: 100%
+
+          &:first-child
+            margin-right: 0px
+
+          &[type="text"]
+            margin-bottom: 48px
+
+      textarea
+        border-radius: 4px
+        border: 0px
+        background-color: #f2f3f4
+        font-size: 11pt
+        padding: 12px 14px
+        resize: none
+        width: 100%
+        height: 145px
+
+      .choose-files-row
+        margin: 9.9% 0 12px 0
+        clear: both
+        overflow: auto
+
+        label
+          width: 210px
+          height: 49px
+          padding: 13px
+          float: none
+          margin: 10px auto
+          display: inherit
+
+          .btn-file
+            position: relative
+            overflow: hidden
+
+        span
+          display: inherit
+          line-height: 18pt
+          text-align: center
+          width: 68%
+          font-size: 12pt
+          margin: 0 auto
+          float: none
+
+
+      .progress-bar-row
+        position: relative
+        text-align: center
+
+        progress
+          width: 74%
+          margin: 0 auto
+          display: inherit
+
+        .progress-percentage
+          margin: -2px 0 0 -9px
+          display: inline-block
+          position: absolute
+
+      .submit-input-client
+        width: 214px
+        height: 49px
+        border-radius: 4px
+        background-color: #5c9ded
+        color: white
+        margin: 22px auto
+        display: inherit
+

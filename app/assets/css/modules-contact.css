@@ -1,0 +1,105 @@
+/* Modules Contact */
+.top-blue-row-contact {
+  background: url(../img/top-blue-row-bg.png) repeat-x;
+  padding: 0 0 0px 0; }
+  .top-blue-row-contact-title {
+    color: #334e82;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 37pt;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    margin: 41px 0 39px -2px;
+    width: 100%; }
+    .top-blue-row-contact-title span {
+      color: #fff; }
+  .top-blue-row-contact figure {
+    float: right;
+    width: 100%; }
+    .top-blue-row-contact figure img {
+      width: 78%;
+      float: right; }
+
+.contact-send-mail {
+  margin: 105px 0 60px 0; }
+  .contact-send-mail #contact-form-send-mail .contact-form-send-mail-1row {
+    margin: 0 0 43px 0; }
+    .contact-send-mail #contact-form-send-mail .contact-form-send-mail-1row input {
+      border-radius: 4px;
+      border: 0px;
+      background-color: #f2f3f4;
+      font-size: 11pt;
+      padding: 0 14px; }
+      .contact-send-mail #contact-form-send-mail .contact-form-send-mail-1row input[type="text"] {
+        height: 42px;
+        width: 46.6%;
+        margin: 0 31px 0 0px; }
+      .contact-send-mail #contact-form-send-mail .contact-form-send-mail-1row input[type="email"] {
+        height: 42px;
+        width: 46.6%; }
+  .contact-send-mail #contact-form-send-mail .contact-form-send-mail-2row {
+    margin: 0 0 43px 0; }
+    .contact-send-mail #contact-form-send-mail .contact-form-send-mail-2row input {
+      border-radius: 4px;
+      border: 0px;
+      background-color: #f2f3f4;
+      font-size: 11pt;
+      padding: 0 14px;
+      height: 42px;
+      width: 100%; }
+  .contact-send-mail #contact-form-send-mail textarea {
+    border-radius: 4px;
+    border: 0px;
+    background-color: #f2f3f4;
+    font-size: 11pt;
+    padding: 10px 14px;
+    resize: none;
+    width: 99.8%;
+    height: 106px;
+    margin: 0 0 26px 0; }
+  .contact-send-mail .contact-credentials {
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 4px 0 37.4px 0px; }
+    .contact-send-mail .contact-credentials-title {
+      color: #393939;
+      font-size: 17pt; }
+      .contact-send-mail .contact-credentials-title span {
+        color: #26538a; }
+    .contact-send-mail .contact-credentials .email-contact-title {
+      color: #26538a;
+      font-size: 17pt; }
+      .contact-send-mail .contact-credentials .email-contact-title span {
+        color: #393939; }
+    .contact-send-mail .contact-credentials-about {
+      font-family: "Open Sans", sans-serif;
+      font-size: 10.4pt;
+      color: #555;
+      font-weight: 100;
+      line-height: 27pt; }
+  .contact-send-mail .submit-input-contact {
+    width: 212px;
+    height: 43px;
+    border-radius: 4px;
+    background-color: #5c9ded;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #fff; }
+
+.map {
+  overflow: hidden; }
+  .map .contact-map-1920 {
+    display: initial; }
+  .map .contact-map-1280 {
+    display: none; }
+  .map .contact-map-1024 {
+    display: none; }
+  .map .contact-map-768 {
+    display: none; }
+  .map .contact-map-480 {
+    display: none; }
+  .map .contact-map-320 {
+    display: none; }
