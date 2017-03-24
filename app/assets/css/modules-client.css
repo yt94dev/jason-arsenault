@@ -80,7 +80,8 @@
   #client-form-send-mail-files .choose-files-row label {
     width: 212px;
     height: 43px;
-    padding: 11px; }
+    padding: 11px;
+    box-shadow: 0px 7px 39px -9px rgba(50, 50, 50, 0.75); }
     #client-form-send-mail-files .choose-files-row label .btn-file {
       position: relative;
       overflow: hidden; }
@@ -104,4 +105,7 @@
   height: 43px;
   border-radius: 4px;
   background-color: #5c9ded;
-  color: white; }
+  color: white;
+  box-shadow: 0px 7px 39px -9px rgba(50, 50, 50, 0.75); }
+  #client-form-send-mail-files .submit-input-client:hover {
+    background-color: #286090; }

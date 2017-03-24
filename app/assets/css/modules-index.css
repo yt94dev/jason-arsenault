@@ -251,3 +251,5 @@
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0px 7px 39px -9px rgba(50, 50, 50, 0.75); }
+    .get-started .get-started-overlay a:hover {
+      background-color: #C5D2D6; }
