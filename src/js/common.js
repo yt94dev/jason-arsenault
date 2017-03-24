@@ -6,6 +6,8 @@ $(document).ready(function(){
     });
   }
 
+
+
   //Code for small business modal
 
   $('button#go-small').click( function(event){
