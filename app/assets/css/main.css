@@ -5820,7 +5820,7 @@ footer {
     margin: 7.5% 0 9.4% -1%;
     line-height: 39pt; }
   .about-us-overview {
-    padding: 11% 0 11.5% 0; }
+    padding: 11% 0 11% 0; }
     .about-us-overview-avatar figure img {
       width: 100%; }
     .about-us-overview-avatar-owner-name {
@@ -5844,7 +5844,7 @@ footer {
       margin: 0 0px 0 0;
       width: 103%; }
   .choose-pricing-plan {
-    padding: 9.6% 0 10.6% 0px; }
+    padding: 11% 0 11% 0; }
     .choose-pricing-plan-col-wrap {
       padding: 46px 0 46px 0; }
       .choose-pricing-plan-col-wrap .pricing-plan-title {
@@ -5909,7 +5909,7 @@ footer {
     width: 82%;
     float: right; }
   .contact-send-mail {
-    margin: 11% 0 5.6% 0; }
+    margin: 11% 0 11% 0; }
     .contact-send-mail #contact-form-send-mail .contact-form-send-mail-1row input[type="text"] {
       margin: 0 27px 0 0px; }
   .top-blue-row-client {
@@ -5924,7 +5924,7 @@ footer {
       width: 100%;
       float: right; }
   .client-area {
-    margin: 10.7% 0 10.9% 0; }
+    margin: 11% 0 11% 0; }
     .client-area #client-form-send-mail-files input {
       border-radius: 4px;
       border: 0px;
@@ -6001,7 +6001,7 @@ footer {
         width: 113%;
         float: right; }
   .articles {
-    margin: 11.4% 0 10.2% 0; }
+    margin: 11% 0 11% 0; }
     .articles .articles-post-priview {
       margin: 0px 0 46px 0; }
       .articles .articles-post-priview-title {
@@ -6286,9 +6286,9 @@ footer {
     .top-blue-row figure img {
       width: 118%; }
   .about-us-overview {
-    padding: 11% 0 20.5% 0; }
+    padding: 11% 0 11% 0; }
     .about-us-overview-avatar figure {
-      margin: 42px auto 0px auto;
+      margin: 0px auto 0px auto;
       display: block;
       width: 288px;
       height: 290px; }
@@ -6331,7 +6331,7 @@ footer {
     z-index: 3;
     position: relative; }
   .choose-pricing-plan {
-    padding: 20.1% 0 9.4% 0; }
+    padding: 11% 0 11% 0; }
     .choose-pricing-plan-col-wrap {
       padding: 11.6% 0 10.6% 0;
       margin: 0 0 50px 0; }
@@ -6428,7 +6428,7 @@ footer {
     width: 107%;
     float: right; }
   .contact-send-mail {
-    margin: 18% 0 20% 0; }
+    margin: 11% 0 11% 0; }
     .contact-send-mail .contact-credentials {
       text-align: center;
       margin: 4px 0 42px 0; }
@@ -6468,7 +6468,7 @@ footer {
       width: 302%;
       float: right; }
   .client-area {
-    margin: 18.3% 0 16.9% 0; }
+    margin: 11% 0 11% 0; }
     .client-area-article-title {
       font-size: 26pt;
       margin: 5px 0 0 -1px; }
@@ -6558,7 +6558,7 @@ footer {
         width: 140%;
         float: right; }
   .articles {
-    margin: 19.9% 0 21% 0; }
+    margin: 11% 0 11% 0; }
     .articles .articles-post-priview {
       margin: 0px 0 46px 0; }
       .articles .articles-post-priview-title {
@@ -6885,9 +6885,9 @@ footer {
       line-height: 24pt;
       font-size: 21.8pt; }
   .about-us-overview {
-    padding: 11% 0 20.5% 0; }
+    padding: 11% 0 11% 0; }
     .about-us-overview-avatar figure {
-      margin: 60px auto 0px auto;
+      margin: 0px auto 0px auto;
       display: block;
       width: 183px;
       height: 186px; }
@@ -6928,7 +6928,7 @@ footer {
     z-index: 3;
     position: relative; }
   .choose-pricing-plan {
-    adding: 23.1% 0 20% 0; }
+    padding: 11% 0 11% 0; }
     .choose-pricing-plan-col-wrap {
       padding: 13% 0 16.6% 0;
       margin: 0 0 50px 0; }
@@ -7030,7 +7030,7 @@ footer {
         width: 130%;
         float: right; }
   .contact-send-mail {
-    margin: 27% 0 29% 0; }
+    margin: 11% 0 11% 0; }
     .contact-send-mail .contact-credentials {
       text-align: center;
       margin: 4px 0 42px 0; }
@@ -7075,7 +7075,7 @@ footer {
       width: 500%;
       float: right; }
   .client-area {
-    margin: 27.3% 0 22.6% 0; }
+    margin: 11% 0 11% 0; }
     .client-area-article-title {
       font-size: 26pt;
       margin: 5px 0 0 -1px; }
@@ -7171,7 +7171,7 @@ footer {
         float: right;
         margin: 0px -38px 0px 0px; }
   .articles {
-    margin: 29% 0 31.2% 0; }
+    margin: 11% 0 11% 0; }
     .articles .articles-post-priview {
       margin: 0px 0 49px 0; }
       .articles .articles-post-priview-title {
