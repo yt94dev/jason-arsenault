@@ -5598,11 +5598,15 @@ footer {
       color: #fff;
       font-weight: 100;
       letter-spacing: -0.4px; }
+      footer .header-nav .footer-navigation .nav-item:hover {
+        background-color: rgba(242, 242, 242, 0.5); }
       footer .header-nav .footer-navigation .nav-item a {
         text-decoration: none;
         color: #fff;
         padding: 31px 25px 30px 22px;
         display: inline-block; }
+  footer .header-nav .footer-active-menu-item {
+    background-color: rgba(242, 242, 242, 0.5); }
   footer .footer-anchor {
     display: none; }
   footer .footer-copyright {
