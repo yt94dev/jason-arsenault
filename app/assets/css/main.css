@@ -5500,7 +5500,7 @@ header {
       header .header-nav .navigation .nav-item a {
         text-decoration: none;
         color: #5c9ded;
-        padding: 31px 25px 30px 23px;
+        padding: 17px;
         display: inline-block; }
     header .header-nav .navigation .header-active-menu-state {
       background-color: #f2f2f2; }
@@ -6070,7 +6070,7 @@ footer {
     header .header-nav .navigation .nav-item {
       display: block;
       text-align: center;
-      padding: 17.3px;
+      padding: 0;
       font-size: 20.4pt; }
   header .header-nav .hamburger-menu {
     float: right;
@@ -6082,10 +6082,11 @@ footer {
     display: inline-block;
     width: 55px;
     height: 56px;
-    padding: 0px 0px 0 9px;
     border-radius: 7px;
     color: #5c9ded;
-    cursor: pointer; }
+    cursor: pointer;
+    padding: 0;
+    text-align: center; }
   header .header-nav .logo {
     margin-left: 19px; }
     header .header-nav .logo a {
@@ -6674,8 +6675,10 @@ footer {
     header .header-nav .navigation .nav-item {
       display: block;
       text-align: center;
-      padding: 17.3px;
-      font-size: 20.4pt; }
+      padding: 0;
+      font-size: 13.4pt; }
+      header .header-nav .navigation .nav-item a {
+        padding: 12px; }
   header .header-nav .hamburger-menu {
     float: right;
     font-size: 26px;
@@ -6685,12 +6688,13 @@ footer {
     margin-bottom: 3.5%;
     width: 38px;
     height: 38px;
-    padding: 0px 0px 0 6px;
     font-weight: 100;
     display: inline-block;
     cursor: pointer;
     border-radius: 7px;
-    color: #5c9ded; }
+    color: #5c9ded;
+    padding: 0;
+    text-align: center; }
   header .header-nav .logo {
     margin-left: 5.5%; }
     header .header-nav .logo a {
