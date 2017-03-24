@@ -249,4 +249,5 @@
     text-transform: capitalize;
     padding: 11px;
     text-decoration: none;
-    cursor: pointer; }
+    cursor: pointer;
+    box-shadow: 0px 7px 39px -9px rgba(50, 50, 50, 0.75); }
