@@ -41,7 +41,8 @@
         width: 213px;
         height: 170px;
         margin: 0 29px 0 0;
-        position: relative; }
+        position: relative;
+        border-radius: 4px; }
         .articles .articles-post-priview .articles-img-text-wrapper .articles-post-img img {
           width: 213px;
           height: 170px; }
@@ -110,6 +111,8 @@
         font-weight: bold;
         color: #3b3b3b;
         margin: 0; }
+        .articles .article-top-posts .article-top-post-title a {
+          color: #3b3b3b; }
       .articles .article-top-posts .article-top-post-tags {
         font-family: "Open Sans";
         font-size: 12px;
